@@ -1,23 +1,5 @@
 # Solución del Laboratorio - Observabilidad (Grafana, Prometheus y Loki)
 
-Este documento contiene las instrucciones del laboratorio de observabilidad y las respuestas detalladas a las preguntas planteadas en la guía.
-
----
-
-## 1. Resumen de las Instrucciones del Laboratorio
-
-El laboratorio consiste en configurar y desplegar un stack completo de observabilidad como código utilizando **Docker Compose**, y luego realizar tareas de monitoreo, visualización y alertas sobre una aplicación de ejemplo (Frontend y Backend).
-
-### Componentes del Stack
-* **Prometheus:** Recolecta y almacena métricas numéricas basadas en series temporales (CPU, memoria, peticiones).
-* **Loki:** Almacena y procesa los logs de texto enviados por las aplicaciones y contenedores.
-* **Grafana Alloy:** Recolector de logs de última generación (reemplazo de Promtail) que recoge los logs de Docker y los envía a Loki.
-* **Grafana:** Interfaz de visualización para construir dashboards unificados (métricas y logs) y gestionar alarmas.
-* **Exporters (node-exporter y cAdvisor):** Proveen métricas del sistema host y de los contenedores individuales respectivamente.
-
----
-
-## 2. Respuestas a las Preguntas de la Guía
 
 A continuación se presentan las respuestas detalladas y técnicas a las preguntas de la sección 13 de la guía de laboratorio:
 
